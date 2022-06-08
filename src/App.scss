@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+
+  display: grid;
 }
 
 .App-logo {
@@ -35,5 +37,12 @@
   }
   100% {
     transform: translateY(0px);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .App {
+    grid-template-columns: 1fr 5fr;
   }
 }

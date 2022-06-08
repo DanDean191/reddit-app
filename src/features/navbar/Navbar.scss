@@ -1,0 +1,13 @@
+.navbar-container {
+    // box-shadow: -5px 0px 15px -5px;
+    box-shadow: -5px 0px 20px 0px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+
+    span {
+        height: 1px;
+        width: 100%;
+        background: #000;
+    }
+}
